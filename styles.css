@@ -1,0 +1,259 @@
+body{
+    font-family:"Heebo", sans-serif;
+    max-width:1152px;
+    margin: 0 auto;
+}
+nav ul{
+    list-style-type:none;
+    background-color:#FFFFFF;
+    display:flex;
+    justify-content:end;
+    margin-right:0.5rem;
+    color: rgba(0, 0, 0, 1);
+}
+nav li{
+    font-size: 1em;
+    padding:1em;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+.menu{
+    display:none;
+}
+header{
+    margin-bottom:3rem
+}
+.top{
+    display:flex;
+    justify-content:start;
+    margin-top:6rem;
+}
+.profile-photo{
+    width: 228px;
+    height: 243px;
+    border-radius:50%;
+    box-shadow: -4px 10px #EDF7FA;
+    margin-left:3rem;
+}
+.button{
+    width: 187px;
+    height: 47px;
+    border-radius: 2px;
+    background-color: rgba(255, 100, 100, 1);
+    font-size: 20px;
+    font-weight: 500;
+    text-align:center;
+    color:#FFFFFF;
+    border:none;
+    margin-left:8rem;
+    margin-top:1rem;
+}
+.column-one {
+    flex:2;
+}
+.column-two{
+    flex:1;
+}
+.top-text{
+    margin:1rem 9rem 1rem 8rem;
+    font-size:16px;
+}
+h1{
+    margin-left:8rem;
+    font-size:2.65rem;
+}
+.middle{
+    background: rgba(237, 247, 250, 1);  
+}
+.posts{
+    display:flex;
+}
+.box1{
+    flex:1;
+    padding: 2rem 2rem 0.5rem 8rem;
+}
+.box2 {
+    color: #00A8CC;
+    padding:2rem 8rem 0.5rem 2rem;
+}
+.midtext2 p2{
+    display:none;
+}
+.midtext1{
+    margin: 1rem 0.5rem 5rem 8rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius:2px;
+    padding:2rem 3rem 2rem 2rem;
+}
+.midtext2{
+    margin: 1rem 8rem 5rem 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius:2px;
+    padding:2rem 3rem 2rem 2rem;
+}
+.postings{
+    display:flex;
+    justify-content: space-between;   
+}
+h3{
+    font-size:23px;
+}
+.midtext1 p1 {
+    font-size:17px;
+}
+.midtext p1{
+    font-size:17px;
+}
+.midtext1,.midtext2 p{
+    font-size:18px;
+}
+.bottom{
+    background-color: rgba(255, 255, 255, 1);
+}
+.featured{
+    margin-left: 8rem;
+    padding-top:2rem;
+    font-size:22px;
+}
+.bottom-image{
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+}
+.span1 {
+    background-color: #142850;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0.1rem 0.7rem 0.2rem 0.7rem;
+}
+.span2{
+    color: #8695A4;
+    margin-left: 1rem;
+}
+.col2{
+    padding-left: 1rem;
+}
+.col2 p1{
+    font-size:17px;
+}
+.box-top, .box-middle, .box-bottom{
+    display:flex;
+    justify-content:center;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    margin-left:8rem;
+    margin-right:7rem;
+    margin-bottom:3rem;
+}
+.bottom h2 {
+    font-size:30px;
+}
+.span-right{
+    font-size:20px;
+    color: rgba(134, 149, 164, 1);
+    padding-left:1.5rem;
+    
+}
+.span-left{
+    background-color: rgba(20, 40, 80, 1);
+    padding:1px 10px;
+    border-radius: 20px;
+    color:rgba(255, 255, 255, 1);
+}
+.signs{
+    display:flex;
+    justify-content:center;   
+}
+i{
+    margin:7rem 1rem 1rem 1rem;
+    color: rgba(33, 36, 61, 1);
+}
+@media screen and (max-width:600px){
+    nav ul{
+        display:none;
+    }
+    .menu{
+        display:block;
+        margin-left:auto;
+        margin-right:1rem;
+        margin-top:1rem;
+        width:40px;
+        height:40px;
+}
+    .bar{
+        width: 1.87rem;
+        height:0.2rem;
+        background-color: black;
+        margin: 0.4rem 0;   
+    }
+    .top{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;   
+    }
+    .column-one{
+        order:2;
+    }
+    .profile-photo{
+        margin:auto;
+    }
+    .button{
+        margin:auto;
+    }
+    .middle, .postings{
+        display:flex;
+        flex-direction:column;
+        padding:0.5rem;
+        gap:1rem;    
+    }
+    .column-one h1{
+        margin:auto;
+        padding-right:8rem;
+        padding-left:8rem;
+    }
+    .top-text{
+        padding-bottom:1rem;
+    }
+    .box1{
+        margin:auto;
+        padding:1rem;
+        text-align:center;
+        font-size:18px;
+    }
+    .box2{
+        display:none;
+    }
+    .midtext1, .midtext2{
+        margin:auto;
+    }
+    .featured{
+        margin-left:2.5rem;
+    }
+    .bottom{  
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .box-top{
+        flex-direction:column;
+    }
+    .box-middle, .box-bottom{
+        display:none;
+    }
+    .col1{
+        width: 339px;
+        height: 230px;
+        border-radius: 6px;
+        margin-bottom:1rem;
+    }
+    .bottom-image{
+        width:100%;
+        height:100%;   
+    }
+}
