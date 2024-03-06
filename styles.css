@@ -37,7 +37,7 @@ header{
     box-shadow: -4px 10px #EDF7FA;
     margin-left:3rem;
 }
-.btn{
+#btn{
     width: 187px;
     height: 47px;
     border-radius: 2px;
@@ -203,7 +203,7 @@ i{
     .profile-photo{
         margin:auto;
     }
-    .button{
+    #btn{
         margin:auto;
     }
     .middle, .postings{
