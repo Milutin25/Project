@@ -1,6 +1,6 @@
-const button=document.querySelector(".button");
+const btn = document.querySelector('.btn');
 
-button.addEventlistener("click", () => {
-    button.style.backgroundColor = "#ffac09";
-    button.style.transition= "5s ease";
+btn.addEventlistener('click', () => {
+    btn.style.backgroundColor = "#ffac09";
+    btn.style.transition= '5s ease';
 });
